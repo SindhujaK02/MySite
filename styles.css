@@ -1,0 +1,164 @@
+body{
+text-align:center;
+font-family: cursive;
+margin:0;
+}
+/*testimonial section*/
+#testimonials{
+   background-color:#1cb8b2 !important;
+   color:white ;
+   padding: 8% 15%; 
+}
+.testimonial-image{
+	width:15%;
+	border-radius:100%;
+	margin:20px;
+}
+h1{
+	margin-top:50px;
+	font-family: 'Dancing Script', cursive;
+	font-size:5.625em;
+	margin-bottom:0px;
+	line-height: 2;
+}
+h2{
+	margin-top:0px;
+	font-family: 'Work Sans', sans-serif;
+	font-size:2.5rem;
+	font-weight: normal;
+	color:#66BFBF;
+	
+}
+h3,a{
+	color: #11999E;
+}
+.top-container{
+	background-color:#E4F9F5;
+	color:#66BFBF;
+	padding-top:50px;
+}
+
+.bottom-container{
+	background-color:#66BFBF;
+	margin:0;
+	color:#11999E;
+	padding:25px ;
+	
+}
+
+hr{
+    width: 15%;
+    border-top: blue;
+    border-bottom: none;
+    border-top: dotted grey;
+    border-width: 0.8em 0.8px;
+	margin:100px auto;
+}
+a{
+	text-decoration:none;
+}
+#top-cloud{
+	position:relative;
+	left:200px;
+
+}
+#bottom-cloud{
+	position:absolute;
+}
+.picture{
+	width:200px;
+	height:200px;
+}
+.skill-row{
+	margin:100px auto;
+	width:50%;
+	text-align:left;
+}
+p{
+	line-height:2;
+}
+.skillimg1{
+	width:25%;
+	height:75%;
+	float:left;
+	padding-right:30px;
+}
+.skillimg2{
+	width:25%;
+	float:right;
+	padding-left:30px;
+}
+.footer-link{
+	padding-right:25px;
+}
+.coffee{
+	margin-bottom:50px;
+}
+
+.btn {
+  background: #66bfbf;
+  background-image: -webkit-linear-gradient(top, #66bfbf, #2bb882);
+  background-image: -moz-linear-gradient(top, #66bfbf, #2bb882);
+  background-image: -ms-linear-gradient(top, #66bfbf, #2bb882);
+  background-image: -o-linear-gradient(top, #66bfbf, #2bb882);
+  background-image: linear-gradient(to bottom, #66bfbf, #2bb882);
+  -webkit-border-radius: 34;
+  -moz-border-radius: 34;
+  border-radius: 34px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 9px 20px 10px 20px;
+  text-decoration: none;
+ 
+}
+
+.btn:hover {
+  background: #66BFBF;;
+  background-image: -webkit-linear-gradient(top, #66BFBF;, #66BFBF;);
+  background-image: -moz-linear-gradient(top, #66BFBF;, #66BFBF;);
+  background-image: -ms-linear-gradient(top, #66BFBF;, #66BFBF;);
+  background-image: -o-linear-gradient(top, #66BFBF;, #66BFBF;);
+  background-image: linear-gradient(to bottom, #66BFBF;, #66BFBF;);
+  text-decoration: none;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+	transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.column:hover {
+    background-color: #bad4c5; /* Change background color on hover */
+}
+
+#skills-column {
+    margin-right: 10px;
+}
+
+#tools-column {
+    margin-left: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+
